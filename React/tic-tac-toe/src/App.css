@@ -1,0 +1,70 @@
+/* Basic reset and styling for game */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: grey;
+}
+
+/* Game wrapper */
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+/* Status message styling */
+.status {
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Board styling */
+.board-row {
+  display: flex;
+}
+
+.square {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border: 2px solid #999;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  line-height: 60px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.square:hover {
+  background-color: #f0f0f0;
+}
+
+/* Game history buttons styling */
+.game-info ol {
+  padding-left: 20px;
+}
+
+.game-info button {
+  margin-top: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.game-info button:hover {
+  background-color: #0056b3;
+}
